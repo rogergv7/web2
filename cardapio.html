@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel='icon' href='favicon.ico'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+        body{
+            font-family: "Ultra", serif;
+        }
+        </style>
+    <title>Cardapio</title>
+</head>
+<body>
+
+    <div id="topo">
+
+        <img src="logo/LOGO (7)-Photoroom.png" id="logo"RR BURGER>
+        <i id="tel" class="fa-solid fa-phone"></i>
+        <span id="ntel">4002-8922</span>
+        <i id="wpp"class="fa-brands fa-whatsapp"></i>
+        <span id="nwpp">(21) 99123-3456</span>
+
+            </div>
+
+        <div id="info">
+
+            <div class="barra">
+
+            <div class="sobre">
+                <span id="inicio"><a href="index.html">Inicio</a></span>
+            </div>
+
+            <div class="sobre">
+                <span id="cardapio"><a href="cardapio.html">Cardápio</a></span>
+            </div>
+
+            <div class="sobre">
+                <span id="promocoes"><a href="promocao.html">Promoções</a></span>
+            </div>
+
+        </div>
+
+        <div class="redes">
+            <span id="siga">@rrburger</span>
+            <a href="https://www.instagram.com/">
+                <i id="midia" class="fa-brands fa-instagram"></i>
+             </a>
+             <a href="http://facebook.com.br/">
+                <i id="midia" class="fa-brands fa-facebook"></i>
+             </a>
+                <a href="carrinho.html">
+                <i id="midia" class="fa-solid fa-cart-shopping"></i>
+                </a>
+
+        </div>
+
+            <span id="tituloHamburger">Hamburgers</span>
+
+            <div class="cards">
+            <div class="cards-container">
+                <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                    <img class="card-image" src="hamburger/hamburger 2 (5).png">
+                    <button class="card-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            
+                <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                    <img class="card-image" src="hamburger/hamburger 3 (2).png">
+                    <button class="card-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            
+                <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                    <img class="card-image" src="hamburger/hamburger 4 (2).png">
+                    <button class="card-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            
+                <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                    <img class="card-image" src="hamburger/hamburger 6 (2).png">
+                    <button class="card-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            
+                <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                    <img class="card-image" src="hamburger/hamburger 5 (2).png">
+                    <button class="card-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            
+                <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                    <img class="card-image" src="hamburger/hamburger (2).png">
+                    <button class="card-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+        </div>
+            
+            <div>
+                <span id="tituloporcao">Porções</span>
+            </div>
+            
+            <div id="cards2">
+                <div class="cards2-container">
+                    <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                        <img class="card-image" src="porções/batata frita.png">
+                        <button class="card2-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+            
+                    <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                        <img class="card-image" src="porções/batata maluca.png">
+                        <button class="card2-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+            
+                    <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                        <img class="card-image" src="porções/balde de frango.png">
+                        <button class="card2-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <span id="titulobebidas">Bebidas</span>
+            
+            <div id="cards3">
+                <div class="cards3-container">
+                    <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                        <img class="card-image" src="bebidas/agua.png">
+                        <button class="card3-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+            
+                    <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                        <img class="card-image" src="bebidas/refrigerante lata.png">
+                        <button class="card3-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+            
+                    <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                        <img class="card-image" src="bebidas/refrigerante.png">
+                        <button class="card3-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+            
+                    <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                        <img class="card-image" src="bebidas/h2o.png">
+                        <button class="card3-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+            
+                    <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                        <img class="card-image" src="bebidas/suco.png">
+                        <button class="card3-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+            
+                    <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                        <img class="card-image" src="bebidas/cerveja.png">
+                        <button class="card3-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <span id="titulosobremesa">Sobremesas</span>
+            
+            <div id="cards4">
+                <div class="cards4-container">
+                    <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                        <img class="card-image" src="sobremesa/brownie.png">
+                        <button class="card4-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+            
+                    <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                        <img class="card-image" src="sobremesa/casquinha.png">
+                        <button class="card4-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+            
+                    <div class="card" onmouseover="expandCard(this)" onmouseout="shinkCard(this)">
+                        <img class="card-image" src="sobremesa/milkshake.png">
+                        <button class="card4-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <footer id="finalpgcardapio">@Todos os direitos reservados.<span>2024</span><img id="imgfooter" src="logo/LOGO (2).png"></footer>
+            
+            <script src="script.js"></script>
+</body>
+</html>

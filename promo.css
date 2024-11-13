@@ -1,0 +1,89 @@
+.cardspromo-container,
+.cardspromo2-container,
+.cardspromo3-container,
+.cardspromo4-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto; 
+    margin-top: 40px;
+}
+
+#tituloHamburger, #tituloporcao, #titulobebidas, #titulosobremesa {
+    /* position: relative; */
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+    color: #ff5757;
+}
+
+.cardpromo {
+    background-color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.cardpromo-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.cardpromo-button,
+.cardpromo2-button,
+.cardpromo3-button,
+.cardpromo4-button {
+    all: unset;
+    background-color: #3c3b3b;
+    color: white;
+    width: 45%;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 8px;
+    text-align: center;
+    transition: background 0.3s;
+    cursor: pointer;
+    margin: auto;
+    bottom: 20px;
+}
+
+.card-button:hover,
+.card2-button:hover,
+.card3-button:hover,
+.card4-button:hover {
+    background-color: black;
+}
+#promocard{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    gap: 10px; 
+    font-family:'Arial';
+    right:20px;
+    font-size: 20px;
+}
